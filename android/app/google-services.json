@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "21968475955",
+    "project_id": "scores-b2341",
+    "storage_bucket": "scores-b2341.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21968475955:android:6a5d99547574481e46d046",
+        "android_client_info": {
+          "package_name": "com.example.bukharo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21968475955-0o1keju4v5kgea3vgqjoi5bfnaq8eha7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bukharo",
+            "certificate_hash": "fb48d3672f75ba459f3cd7c51bb28af5135d78d3"
+          }
+        },
+        {
+          "client_id": "21968475955-0c3gh1bqe9e4te3albatfrrr49a7r8cj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXbbUZuvKrsVQeyk4djOdQxKo00wZus9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21968475955-0c3gh1bqe9e4te3albatfrrr49a7r8cj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

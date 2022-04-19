@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:localstore/localstore.dart';
 import '../Widget/textform.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -7,10 +6,10 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<MyHomePage> createState() => _MyHomePageState(); 
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageState extends State<MyHomePage> { 
   TextEditingController teamAName = TextEditingController();
 
   TextEditingController teamBName = TextEditingController();
@@ -42,19 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: SizedBox(
                   width: MediaQuery.of(context).size.width,
                   child: ElevatedButton(
-                    onPressed: () {
-                      final db = Localstore.instance; // gets new id
-                      final id = db.collection('Teams').doc().id;
-                      db
-                          .collection('Teams')
-                          .doc('Team A')
-                          .set({'name': teamAName.text});
-                      db
-                          .collection('Teams')
-                          .doc('Team B')
-                          .set({'name': teamBName.text});
-
-                      Navigator.pushNamed(context, '/Scores');
+                    onPressed: () { Navigator.pushNamed(context, '/Scores');
                     },
                     child: const Text('Next'),
                   ),
