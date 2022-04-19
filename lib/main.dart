@@ -1,4 +1,4 @@
-import 'package:bukharo/Screens/scores.dart';
+import 'Screens/scores.dart';
 import 'package:flutter/material.dart';
 import 'Screens/home.dart';
 
